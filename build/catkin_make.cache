@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/ines/robotica/intro_robotics/devel -DCMAKE_INSTALL_PREFIX=/home/ines/robotica/intro_robotics/install -G Unix Makefiles
