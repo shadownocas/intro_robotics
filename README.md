@@ -53,7 +53,7 @@ para update src file:
 # SIMULAR
 run `rostopic list` -- fazer `| grep <key_word>` para procurar coisa específica (ex: vel)
 
-velocity: `rostopic info /cmd_vel`
+velocity: `rostopic info /cmd_vel` to do this you need to publish to it first!!
 
         - apresenta subscriber/publisher nodes
         - tipo das msgs para o topico
