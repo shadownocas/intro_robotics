@@ -29,6 +29,7 @@ if __name__ == '__main__':
             controller.control(vel, 0)
             rate.sleep()
             counter += 1
+
     except rospy.ROSInterruptException:
         rospy.loginfo("Got interrupt message")
     
