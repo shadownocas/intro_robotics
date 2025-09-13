@@ -19,10 +19,10 @@ if we want to modify: we can just run it again OR go into `src/<pakge name>/pack
 and then do: `source devel/setup.bash` to source the env
 
 # Do this:
-and add to .bashrc so you dont ahve oo source every time:
-`echo "source ~/robotica/intro_robotics/devel/setup.bash" >> ~/.bashrc
-source ~/.bashrc
-`
+and add to .bashrc so you dont ahve oo source every time: MUDAR PARA O VOSSO FOLDER
+`echo "source ~/<robotica>/<intro_robotics>/devel/setup.bash" >> ~/.bashrc`
+`source ~/.bashrc`
+
 
 Instal extensions for VSCODE! 
 - ROS (não- deprecated)
@@ -39,7 +39,7 @@ tryit by running : `gazebo`
 `roslaunch husky_gazebo husky_playpen.launch` 
 if you get error like `RLException: [husky_playpen.launch] is neither a launch file in package [husky_gazebo] nor is [husky_gazebo] a launch file name`
 please do: (it will install the package)
-`sudo apt update
+`sudo apt update    
 sudo apt install ros-noetic-husky-simulator`
 
 correr scripts:
@@ -73,5 +73,5 @@ to public msgs:
 to launch the robot:
 ` rosrun rob publisher.py ` (this while `roslaunch husky_gazebo husky_playpen.launch` is still running!!)
 
-Para correr logo o robo no husky sem ter de correr o publisher em separado:
+Para correr logo o robo no husky sem ter de correr o publisher nem o husky em separado:
 `roslaunch rob launch_all.launch`

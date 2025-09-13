@@ -1,0 +1,8 @@
+prefix=/home/ines/robotica/intro_robotics/devel
+
+Name: rob
+Description: Description of rob
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

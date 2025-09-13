@@ -1,0 +1,3 @@
+[submodule "src/turtlebot3_datasets"]
+	path = src/turtlebot3_datasets
+	url = https://github.com/shadownocas/turtlebot3_datasets.git

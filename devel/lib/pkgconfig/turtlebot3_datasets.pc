@@ -1,0 +1,8 @@
+prefix=/home/ines/robotica/intro_robotics/devel
+
+Name: turtlebot3_datasets
+Description: Description of turtlebot3_datasets
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
